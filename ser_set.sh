@@ -36,7 +36,7 @@ sudo !!"
     exit 1
   fi
 
-  echo "++++++WELCOME TO SIR_SETUP SETUP++++++"
+  echo "++++++WELCOME TO SER_SET++++++"
   echo ""
 
   determine_os_base
@@ -296,9 +296,8 @@ here: "
     # TODO: Add more ssh/sshd setting tweaks here (using sed?)
     return 7
 
-    # Move over some nice stuff
-    cp ~/.bashrc /home/"$username"/
-    
+  # Move over some nice stuff
+  cp ~/.bashrc /home/"$username"/
 
   if [[ $single_step_mode == 0 ]]; then
     step_8
