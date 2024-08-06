@@ -307,7 +307,8 @@ here: "
 # Setting up Outline
 function step_8() {
   echo "======STEP_8======"
-  yes y | bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)" ||
+  # Use a newer version of the install_server script from the Outline-Apps repository.
+  yes y | bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-apps/master/server_manager/install_scripts/install_server.sh)" ||
     return 8
 
   echo "\
