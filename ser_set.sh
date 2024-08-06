@@ -322,6 +322,10 @@ step_0
 
 echo "======SETUP IS DONE======"
 echo "Enjoy your new server! ;)"
+echo "Remember to add the two PORTS given to you above to ufw by running:"
+echo ""
+echo "ufw allow [PORT]"
+echo ""
 echo "\
 Don't forget to reboot after you're done.
 Just type \"reboot\" and hit enter"
